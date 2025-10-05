@@ -16,7 +16,7 @@ A modern, responsive multi-page website for an eco-friendly products company, bu
 
 ## 🚀 Live Demo
 
-(The Live Link)[https://godsfavour-levelerking.github.io/plp-webtechnologies-classroom-july2025-july-2025-final-project-and-deployment-Final-Project-and-Depl/]
+[The Live Link](https://godsfavour-levelerking.github.io/plp-webtechnologies-classroom-july2025-july-2025-final-project-and-deployment-Final-Project-and-Depl/)
 
 ## 📁 Project Structure
 <code> ecoharvest/
