@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - EcoHarvest</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav container">
+            <a href="index.html" class="nav__logo">
+                <h2>EcoHarvest</h2>
+            </a>
+            
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="about.html" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="products.html" class="nav__link">Products</a></li>
+                    <li class="nav__item"><a href="contact.html" class="nav__link active">Contact</a></li>
+                </ul>
+                
+                <div class="nav__close" id="nav-close">
+                    <span>✕</span>
+                </div>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <span>☰</span>
+            </div>
+        </nav>
+    </header>
+
+    <section class="contact-hero section">
+        <div class="container">
+            <h1>Get In Touch</h1>
+            <p>We'd love to hear from you</p>
+        </div>
+    </section>
+
+    <section class="contact section">
+        <div class="container">
+            <div class="contact__grid">
+                <div class="contact__info">
+                    <h2>Contact Information</h2>
+                    <div class="contact__item">
+                        <h3>📍 Address</h3>
+                        <p>123 Green Street<br>Sustainable City, SC 12345, Heaven.</p>
+                    </div>
+                    <div class="contact__item">
+                        <h3>📞 Phone</h3>
+                        <p>+234 704 021 8796</p>
+                    </div>
+                    <div class="contact__item">
+                        <h3>✉️ Email</h3>
+                        <p>hello@ecoharvest.com</p>
+                    </div>
+                </div>
+                
+                <form class="contact__form" id="contact-form">
+                    <h2>Send us a Message</h2>
+                    <div class="form__group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" required>
+                        <span class="error-message" id="name-error"></span>
+                    </div>
+                    <div class="form__group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required>
+                        <span class="error-message" id="email-error"></span>
+                    </div>
+                    <div class="form__group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required>
+                        <span class="error-message" id="subject-error"></span>
+                    </div>
+                    <div class="form__group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                        <span class="error-message" id="message-error"></span>
+                    </div>
+                    <button type="submit" class="btn btn--primary">Send Message</button>
+                    <div id="form-success" class="success-message" style="display: none;">
+                        Message sent successfully! We'll get back to you soon.
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer__container container">
+            <div class="footer__content">
+                <div class="footer__brand">
+                    <h3>EcoHarvest</h3>
+                    <p>Sustainable living made simple and accessible for everyone.</p>
+                </div>
+                <div class="footer__links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>&copy; 2025 EcoHarvest. All rights reserved. Developed by <a href="http://roetechhub.com.ng/profile" target="_blank"> RoeTechhub<R> </a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/form-validation.js"></script>
+</body>
+</html>

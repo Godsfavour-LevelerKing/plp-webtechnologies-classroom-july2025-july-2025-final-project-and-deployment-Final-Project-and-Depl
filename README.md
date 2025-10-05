@@ -1,90 +1,78 @@
-# 📦 Final Assignment: Build, Organize, and Deploy a Multipage Website
+# EcoHarvest - Sustainable Living Website
 
-You're now ready to bring everything together—HTML, CSS, JavaScript, planning, structure, and deployment. This final project challenges you to **conceptualize, build, and deploy a multi-page website** that is responsive, interactive, and ready for the real world.
+A modern, responsive multi-page website for an eco-friendly products company, built with HTML5, CSS3, and JavaScript.
 
-This assignment will guide you from planning your site all the way to deploying it online. Let’s make your project *production-worthy*! 🚀
+## 🌟 Features
 
----
+- **Responsive Design**: Works perfectly on all devices
+- **Modern UI/UX**: Clean, professional design with smooth animations
+- **Multi-page Structure**: Home, About, Products, and Contact pages
+- **Interactive Elements**: 
+  - Mobile-friendly navigation
+  - Form validation
+  - Product catalog
+  - Scroll animations
+- **Accessibility**: Semantic HTML and keyboard navigation support
 
-## 🌐🎯 Part 1: Planning and Organizing a Multipage Website
+## 🚀 Live Demo
 
-Before you write any code, take time to plan:
+[Add your live URL here after deployment]
 
-* Define your website's purpose (portfolio, product showcase, blog, etc.)
-* Outline 3–5 pages (e.g., Home, About, Services, Contact, Gallery)
-* Sketch or describe the layout of each page
-* Map out internal navigation (how pages link to one another)
+## 📁 Project Structure
+<code>
+ecoharvest/
+├── index.html # Homepage
+├── about.html # About page
+├── products.html # Products page
+├── contact.html # Contact page
+├── css/
+│ ├── style.css # Main styles
+│ ├── responsive.css # Media queries
+│ └── animations.css # Animations
+├── js/
+│ ├── main.js # Shared functionality
+│ ├── products.js # Products management
+│ └── form-validation.js # Contact form
+└── README.md
+</code>
 
-**Goal:** Show intentional structure and user journey across the site.
 
----
 
-## 🌍💻 Part 2: Build the Website Using HTML5, CSS, and JavaScript
+## 🛠️ Technologies Used
 
-Using your plan, begin building:
+- **HTML5**: Semantic markup
+- **CSS3**: Flexbox, Grid, animations, variables
+- **JavaScript**: ES6+ features, form validation, DOM manipulation
+- **Responsive Design**: Mobile-first approach
 
-* Use HTML5 for semantic structure
-* Apply CSS for responsive layout, styling, and animations
-* Use JavaScript to add interactivity (menus, forms, toggles, dynamic content)
+## 🎯 Key Features Demonstrated
 
-Each page should:
+1. **Responsive Navigation**: Hamburger menu for mobile devices
+2. **Form Validation**: Real-time validation with error messages
+3. **Product Showcase**: Dynamic product loading with add-to-cart functionality
+4. **Smooth Animations**: CSS animations and scroll-triggered effects
+5. **Clean Code**: Well-organized, commented, and modular code
 
-* Be mobile-responsive
-* Share a consistent layout/header/footer
-* Include at least one interactive element (e.g., form validation, toggle menu, animation on scroll)
+## 🌐 Deployment
 
-**Goal:** Integrate everything you’ve learned in a cohesive, functioning project.
+This project can be deployed on:
+- GitHub Pages
+- Netlify
+- Vercel
+- Any static hosting service
 
----
+## 📱 Browser Support
 
-## 🛠️🚀 Part 3: Best Practices for Code Organization
+- Chrome (latest)
+- Firefox (latest)
+- Safari (latest)
+- Edge (latest)
 
-Before deployment, refactor your project to follow production-friendly practices:
+## 👨‍💻 Developer
 
-* Organize files in folders (`/css`, `/js`, `/images`, etc.)
-* Write clean, modular, and commented code
-* Use meaningful file names and relative paths
-* Validate your HTML/CSS and test on different screen sizes
+# Godsfavour Abrahams (RoeTechHub)
+Built with ❤️ as a final project demonstration.
 
-**Goal:** Prepare your codebase to be readable, maintainable, and scalable.
+## 📄 License
 
----
-
-## 🌐🚀 Part 4: Introduction to Hosting and Deployment
-
-Once your project is complete, choose a method to **host your site online**.
-
-You can use:
-
-* **GitHub Pages** (great for portfolios and static sites)
-* **Netlify** (powerful CI/CD features and easy form support)
-* **Vercel** (lightning-fast deployment for frontend projects)
-
-Deploy your project and confirm that:
-
-* All links and scripts work
-* It loads properly on mobile and desktop
-* It has a clear, shareable URL
-
-**Goal:** Publish your work online and make it accessible to the world.
-
----
-
-## Deliverables
-
-1. A GitHub repository containing:
-
-   * Your complete project code, properly organized
-   * A `README.md` file explaining your project purpose, structure, and live URL
-2. A live deployed website (hosted via GitHub Pages, Netlify, or Vercel)
-
----
-
-## Outcome
-
-* Clarity and thoroughness of planning documentation
-* Proper use of HTML5, CSS, and JavaScript across multiple pages
-* Responsive and accessible design
-* Clean, well-organized, and commented code
-* Successful live deployment with a working link
-* Evidence of following best practices
+This project is for My training purposes at PLP.
